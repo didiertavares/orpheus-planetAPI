@@ -1,9 +1,354 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "catalogoProdutos": [
+        {
+            "id": 1,
+            "imagem": "https://madeinbrazil.fbitsstatic.net/img/p/guitarra-fender-stratocaster-player-ii-aged-cherry-burst-130893/343967-2.jpg?w=800&h=800&v=202610141807",
+            "nome": "Guitarra elétrica Stratocaster Player",
+            "marca": "Fender",
+            "tipo": "Instrumentos de Corda",
+            "preco": 7500.00,
+            "quantidade": 1,
+            "estoque": 8
+        },
+        {
+            "id": 2,
+            "imagem": "https://cdn.awsli.com.br/2500x2500/157/157612/produto/84148923/e49772a3aa84465f9c695ad69623b239-lqyufv7jdd.png",
+            "nome": "Kit de 12 palhetas 0.88mm",
+            "marca": "Dunlop",
+            "tipo": "Acessórios",
+            "preco": 35.00,
+            "quantidade": 1,
+            "estoque": 25
+        },
+        {
+            "id": 3,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpRZB50yp_W-Dg3akD_cAbdled9pkTtLZRsc5aWPS-kA&s=10",
+            "nome": "Teclado Sintetizador Juno-DS 61",
+            "marca": "Roland",
+            "tipo": "Teclados",
+            "preco": 7800.00,
+            "quantidade": 1,
+            "estoque": 5
+        },
+        {
+            "id": 4,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX12xSdDO3Qz4Q1lmSIuznPjp1wCEZnPF3x4pnpa63uQ&s=10",
+            "nome": "Saxofone Alto YAS-280",
+            "marca": "Yamaha",
+            "tipo": "Instrumentos de Sopro",
+            "preco": 12500.00,
+            "quantidade": 1,
+            "estoque": 5
+        },
+        {
+            "id": 5,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTia4oF1z2DuSLZR5_BBFF4zymihFXROeYKzZh7W-UA&s=10",
+            "nome": "Pedal Efeito Super Overdrive SD-1",
+            "marca": "Boss",
+            "tipo": "Efeitos e Softwares",
+            "preco": 690.00,
+            "quantidade": 1,
+            "estoque": 15
+        },
+        {
+            "id": 6,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSKjUa0MwMq1fAAPy6P9pDuDHKckUX-WTtIv9xsZ9JHQ&s=10",
+            "nome": "Amplificador Valvulado Blues Junior IV",
+            "marca": "Fender",
+            "tipo": "Amplificadores",
+            "preco": 6800.00,
+            "quantidade": 1,
+            "estoque": 5
+        },
+        {
+            "id": 7,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLKwO4gb3DmXalQWUemeE7jHCp3bgWLLwJkVthkI7j_w&s=10",
+            "nome": "Bateria Eletrônica TD-1DMK",
+            "marca": "Roland",
+            "tipo": "Bateria & Percussão",
+            "preco": 8500.00,
+            "quantidade": 1,
+            "estoque": 6
+        },
+        {
+            "id": 8,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfurTwfCiuJw82QCdp2qOxcEau9X27FQD6wiDKL0dPdA&s=10",
+            "nome": "Violão Eletroacústico Aço 314ce",
+            "marca": "Taylor",
+            "tipo": "Instrumentos de Corda",
+            "preco": 14000.00,
+            "quantidade": 1,
+            "estoque": 6
+        },
+        {
+            "id": 9,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXcVVwYqt7D1QliQaHDQ9N2W84FM4shi9Qsm2tMWNuWA&s=10",
+            "nome": "Cabo P10/P10 3 Metros",
+            "marca": "Santo Angelo",
+            "tipo": "Acessórios",
+            "preco": 65.00,
+            "quantidade": 1,
+            "estoque": 20
+        },
+        {
+            "id": 10,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIdFhbTvswDwGM6nTR3V-wV6yPPqAADd0IN8q8LRMkAA&s=10",
+            "nome": "Harmonica Blues Harp em Dó (C)",
+            "marca": "Hohner",
+            "tipo": "Instrumentos de Sopro",
+            "preco": 190.00,
+            "quantidade": 1,
+            "estoque": 20
+        },
+        {
+            "id": 11,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP002oYScA3kIwdGCe8r4hqEXKvVwhn9qXIKEviISh6A&s=10",
+            "nome": "Piano Digital CDP-S110 88 Teclas",
+            "marca": "Casio",
+            "tipo": "Teclados",
+            "preco": 3000.00,
+            "quantidade": 1,
+            "estoque": 7
+        },
+        {
+            "id": 12,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQByEJ2vXViK5StxDhbdcbRztoME1J7SVy6wO5ZFQmxAA&s=10",
+            "nome": "Prato Crash A Custom 16\"",
+            "marca": "Zildjian",
+            "tipo": "Bateria & Percussão",
+            "preco": 2400.00,
+            "quantidade": 1,
+            "estoque": 10
+        },
+        {
+            "id": 13,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZKeUn5kjOIsQr05lm9Dww1CGKNlR-iU_LL2XYlsdSTQ&s=10",
+            "nome": "Caixa / PA Portátil EON208P",
+            "marca": "JBL",
+            "tipo": "Amplificadores",
+            "preco": 5500.00,
+            "quantidade": 1,
+            "estoque": 5
+        },
+        {
+            "id": 14,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhBngaPSlNYMcfJZaMxI3NZTUEVrtmpaDS6D2ORxaCA&s=10",
+            "nome": "Pedaleira Multiefeito Helix LT",
+            "marca": "Line 6",
+            "tipo": "Efeitos e Softwares",
+            "preco": 9800.00,
+            "quantidade": 1,
+            "estoque": 5
+        },
+        {
+            "id": 15,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnHktiTTEhi6LZq18QqxnWx9rlWuDaxTaEZB1jQiKT5w&s=10",
+            "nome": "Contrabaixo Elétrico Jazz Bass",
+            "marca": "Squier",
+            "tipo": "Instrumentos de Corda",
+            "preco": 3800.00,
+            "quantidade": 1,
+            "estoque": 10
+        },
+        {
+            "id": 16,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwsfoEWvU-h8BlCt067jqVOj3bFKCXqDg0b-GtDax45A&s=10",
+            "nome": "Encordoamento Violão Aço 0.11",
+            "marca": "D'Addario",
+            "tipo": "Acessórios",
+            "preco": 55.00,
+            "quantidade": 1,
+            "estoque": 22
+        },
+        {
+            "id": 17,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNo-AX9dFDn6IU8o-67IViB_Zc0xe-xOqVo1_5LohgiA&s=10",
+            "nome": "Trompete em Sib YTR-2330",
+            "marca": "Yamaha",
+            "tipo": "Instrumentos de Sopro",
+            "preco": 6400.00,
+            "quantidade": 1,
+            "estoque": 6
+        },
+        {
+            "id": 18,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ2b_YLgFyKOsoVhQRj8X7K9hQ83RK0jBogBbL4LUI3w&s=10",
+            "nome": "Controlador MIDI Oxygen 49 IV",
+            "marca": "M-Audio",
+            "tipo": "Teclados",
+            "preco": 2100.00,
+            "quantidade": 1,
+            "estoque": 10
+        },
+        {
+            "id": 19,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRviK51FtJ3BAerBCrwSL6sSU0QvVWTMv-0fWFous2S5Q&s=10",
+            "nome": "Cajon Acústico Expert",
+            "marca": "FSA",
+            "tipo": "Bateria & Percussão",
+            "preco": 580.00,
+            "quantidade": 1,
+            "estoque": 14
+        },
+        {
+            "id": 20,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj_ErWIQ0_YevByQ8xIA8Zz25VYp5ZO5QI-5Yxv0RJxA&s=10",
+            "nome": "Amplificador Rumble 40 p/ Baixo ",
+            "marca": "Fender",
+            "tipo": "Amplificadores",
+            "preco": 2900.00,
+            "quantidade": 1,
+            "estoque": 7
+        },
+        {
+            "id": 21,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnMLHcymbHIK67QAavu4eI7PTMIW2ZKKtmrl1t5Piy2A&s=10",
+            "nome": "Old Glove",
+            "marca": "Electro Harmonix",
+            "tipo": "Efeitos e Softwares",
+            "preco": 850.00,
+            "quantidade": 1,
+            "estoque": 12
+        },
+        {
+            "id": 22,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0svhiUwL8qO4NIhJtEavCFTPMgVpy5uXY41s_ghF5mA&s",
+            "nome": "Ukulele Concert Mahogany",
+            "marca": "Kala",
+            "tipo": "Instrumentos de Corda",
+            "preco": 1600.00,
+            "quantidade": 1,
+            "estoque": 15
+        },
+        {
+            "id": 23,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDPXfhMT_5x8kDId3zto_TqC5nBn3qI6spKNXSuQTWWg&s=10",
+            "nome": "Correia Couro p/ Guitarra",
+            "marca": "Gibson",
+            "tipo": "Acessórios",
+            "preco": 80.00,
+            "quantidade": 1,
+            "estoque": 18
+        },
+        {
+            "id": 24,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShHLzkJGBx9BVHjunFEEHnMt1-jmBU69i0diJ2-vV3sg&s",
+            "nome": "Flauta Transversal Standard YFL-221",
+            "marca": "Yamaha",
+            "tipo": "Instrumentos de Sopro",
+            "preco": 3800.00,
+            "quantidade": 1,
+            "estoque": 7
+        },
+        {
+            "id": 25,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS32xyntcnZR7C18KnY3E8pvYb5crf-cBC8OllN8kbYeQ&s=10",
+            "nome": "Piano Digital Stage Vintage SV-2",
+            "marca": "Korg",
+            "tipo": "Teclados",
+            "preco": 21000.00,
+            "quantidade": 1,
+            "estoque": 4
+        },
+        {
+            "id": 26,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiPiODn9lFdg8wrABFKcPTOZlXlgkFrgjbF0QE9Gce0Q&s=10",
+            "nome": "Bateria Acústica Export EXX",
+            "marca": "Pearl",
+            "tipo": "Bateria & Percussão",
+            "preco": 14500.00,
+            "quantidade": 1,
+            "estoque": 5
+        },
+        {
+            "id": 27,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFWbAF_c3m0kY1jJitGjsvAUCyPtrtiLXM24eeLSdt6w&s=10",
+            "nome": "Amplificador Cubo MG15CF",
+            "marca": "Marshall",
+            "tipo": "Amplificadores",
+            "preco": 1150.00,
+            "quantidade": 1,
+            "estoque": 12
+        },
+        {
+            "id": 28,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW7OIKZJZlGSIXEgeWUKMZromVnCf5xftD7Jm3rxUFRg&s=10",
+            "nome": "DAW Live 12 Standard",
+            "marca": "Ableton",
+            "tipo": "Efeitos e Softwares",
+            "preco": 139.90,
+            "quantidade": 1,
+            "estoque": 25
+        },
+        {
+            "id": 29,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7HACNx5YixBAPVCzlsoxoaMCB927ZVCgSSA_0iBk42A&s=10",
+            "nome": "Violino Acústico 4/4 Student",
+            "marca": "Yamaha",
+            "tipo": "Instrumentos de Corda",
+            "preco": 3800.00,
+            "quantidade": 1,
+            "estoque": 7
+        },
+        {
+            "id": 30,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9v7B8mMxu4P91cJbu009wj7DVUGKU_yV3a0W2N0uzJA&s=10",
+            "nome": "Tuner Digital Clip-on",
+            "marca": "Korg",
+            "tipo": "Acessórios",
+            "preco": 95.00,
+            "quantidade": 1,
+            "estoque": 20
+        },
+        {
+            "id": 31,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGvhhmPJv0KxQ9PNy2m1l-uCdEZxpHlIaEiHrhLhF3GQ&s=10",
+            "nome": "Clarinete em Sib",
+            "marca": "Buffet Crampon",
+            "tipo": "Instrumentos de Sopro",
+            "preco": 8900.00,
+            "quantidade": 1,
+            "estoque": 5
+        },
+        {
+            "id": 32,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmxYuVghrzlX7S-JQBaCMRNx_Vjw2WyT8X63Fw2OHB6A&s=10",
+            "nome": "Teclado Arranjador PSR-E373",
+            "marca": "Yamaha",
+            "tipo": "Teclados",
+            "preco": 2190.00,
+            "quantidade": 1,
+            "estoque": 9
+        },
+        {
+            "id": 33,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ItnzP47cwOhL4iFPih0G_9cMvpFxDeA-t8vyXVK17w&s=10",
+            "nome": "Pandeiro Profissional 10\" em ABS",
+            "marca": "Contemporânea",
+            "tipo": "Bateria & Percussão",
+            "preco": 390.00,
+            "quantidade": 1,
+            "estoque": 18
+        },
+        {
+            "id": 34,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm-rGGJ1a-4P4YQC7T4O9ylUKyIrmhXd9-ZzU4b522zg&s=10",
+            "nome": "Amplificador Classic 30 Tube",
+            "marca": "Peavey",
+            "tipo": "Amplificadores",
+            "preco": 8490.00,
+            "quantidade": 1,
+            "estoque": 6
+        },
+        {
+            "id": 35,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQksiQczmdjsmfs-MWUklguY9OLRicPNlSSkIRh_9yf_g&s=10",
+            "nome": "Interface Áudio Scarlett 2i2 4ª Geração",
+            "marca": "Focusrite",
+            "tipo": "Efeitos e Softwares",
+            "preco": 2850.00,
+            "quantidade": 1,
+            "estoque": 14
+        }
+    ]
 }
